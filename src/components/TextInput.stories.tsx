@@ -30,9 +30,8 @@ export default {
 export const Default: StoryObj<TextInputRootProps> = {
   argTypes: {},
 };
-export const Small: StoryObj<TextInputRootProps> = {
-  args: {},
-};
-export const Large: StoryObj<TextInputRootProps> = {
-  args: {},
+export const WithoutIcon: StoryObj<TextInputRootProps> = {
+  args: {
+    children: <TextInput.Input placeholder="Type your e-mail address" />,
+  },
 };
